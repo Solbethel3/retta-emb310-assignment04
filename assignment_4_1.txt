@@ -1,0 +1,5 @@
+Question 1.
+a. func2 uses [PC, #0x30] to load R0 and [R0] to loaded R0, R1, R2, R3, R4 
+to pass the arguments to the function func1 to pass the arguments
+b. 0x62: 0xb51C  PUSH {R2-R4, LR} 
+c. extra code inside funct1: 0x64: 0x4c0d LDR.N  R4, [PC, #0x34]
